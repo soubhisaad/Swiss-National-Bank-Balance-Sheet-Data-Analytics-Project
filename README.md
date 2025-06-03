@@ -1,4 +1,4 @@
-# Swiss-National-Bank-Data-Analysis-and-Forecasting-SQL-Machine-Learning-Approach
+# Swiss National Bank Balance Sheet Data Analytics
 
 > **By Soubhi SAAD**
 
