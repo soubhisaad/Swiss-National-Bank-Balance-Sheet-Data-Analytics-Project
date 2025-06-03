@@ -1,6 +1,7 @@
--- TT assets 2008 financial crisis
 -- Work done by Soubhi SAAD
 
+
+-- TT assets 2008 financial crisis
 SELECT 
     date, 
     total_assets, 
@@ -46,17 +47,15 @@ ORDER BY date;
 
 -- *****************************************************************************************
 
-
--- Highest Asset Levels Ever Recorded
--- Highlights the top 5 dates where SNB’s total assets peaked
--- Often linked to large-scale asset purchases or monetary interventions.
-
 SELECT date, total_assets / 1000.0 as total_assets
 FROM snb_data
 ORDER BY total_assets DESC
 LIMIT 5;
 
--- ***************************************************************************
+-- Highest Asset Levels Ever Recorded
+-- Highlights the top 5 dates where SNB’s total assets peaked
+-- Often linked to large-scale asset purchases or monetary interventions.
+
 
 -- *************************************************************************************
 
@@ -80,10 +79,6 @@ ORDER BY date;
 The recurring monthly peaks in banknote circulation reflect seasonal cash demand 
 especially around holidays and year-end — when households and businesses hold more physical money for spending and liquidity.
 */
-
-
-
-
 
 
 
@@ -119,7 +114,6 @@ The SNB has a lot of foreign currency investments but very few liabilities, whic
 - This strategy gives the SNB control and keeps its balance sheet clean.
 */
 
-
 -- ***************************************************************
 --  Sight Deposits Share of Total Liabilities
 
@@ -135,7 +129,3 @@ ORDER BY date;
 Since 2011, the SNB's deposit share surged from ~10% to over 50% following its EUR/CHF cap, 
 marking a lasting shift toward liquidity-heavy policy, with post-crisis levels staying far above the long-term average.
 */
-
-
-
-
