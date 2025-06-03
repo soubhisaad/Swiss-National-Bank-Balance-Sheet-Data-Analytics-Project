@@ -13,7 +13,7 @@ Link to the Swiss National Bank data portal used in this project:
 ## 📂 Files
 
 - `API.ipynb`: Jupyter notebook for retrieving SNB data via API and performing initial data cleaning.
-- `SNB_DATA.csv`: Final cleaned and pivoted dataset used for analysis and modeling.
+- `SNB_DATA_1.csv`: Final cleaned and pivoted dataset used for analysis and modeling.
 - `SQL_Analysis.sql`: Complete SQL script with well-commented queries.
 - `/SQL_and_pgAdmin_Visuals/`: Screenshots of visualizations created in pgAdmin.
 - `PowerBI_SNB.pbix`: Power BI report file with dashboard visualizations and explanation.
