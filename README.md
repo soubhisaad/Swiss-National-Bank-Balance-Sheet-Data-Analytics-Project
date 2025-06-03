@@ -17,33 +17,33 @@ Link to the Swiss National Bank data portal used in this project:
 - `SQL_Analysis.sql`: Complete SQL script with well-commented queries.
 - `/SQL_and_pgAdmin_Visuals/`: Screenshots of visualizations created in pgAdmin.
 - `PowerBI_SNB.pbix`: Power BI report file with dashboard visualizations and explanation.
+- `/PowerBI_Visuals/`: Screenshots of dynamic dashboard views created in Power BI.
 - `Machine_Learning.ipynb`: Notebook for building and evaluating machine learning models on SNB data.
 
 ---
 
 ## 📌 Key Insights
 
+**🔹 Liquidity Surge Post-2011**  
+Sight deposits jumped from ~10% to over 50% of total liabilities after the SNB introduced the EUR/CHF exchange rate floor in 2011, revealing a long-lasting shift to a liquidity-heavy policy stance.
 
-### Liquidity Surge Post-2011
-Sight deposits jumped from ~10% to over **50% of total liabilities** after the SNB introduced the EUR/CHF exchange rate floor in 2011, revealing a long-lasting shift to a liquidity-heavy policy stance.
+**🔹 Crisis-Driven Balance Sheet Growth**  
+The SNB’s total assets soared during both the 2008 financial crisis and the COVID-19 pandemic. Between March 2020 and December 2021, assets rose by CHF 204 billion due to aggressive foreign asset purchases.
 
-### Crisis-Driven Balance Sheet Growth
-The SNB’s **total assets soared** during both the 2008 financial crisis and the COVID-19 pandemic. Between March 2020 and December 2021, assets rose by CHF **204 billion** due to aggressive foreign asset purchases.
+**🔹 Cash Demand Peaked in 2021**  
+Banknotes in circulation reached an all-time high of CHF 88.5B, showing how households shifted to physical cash during the COVID crisis. Seasonal spikes also reveal holiday- and confidence-driven behavior.
 
-### Cash Demand Peaked in 2021
-**Banknotes in circulation** reached an all-time high of **CHF 88.5B**, showing how households shifted to physical cash during the COVID crisis. Seasonal spikes also reveal holiday- and confidence-driven behavior.
+**🔹 Foreign Currency Investments as a Monetary Tool**  
+SNB foreign currency investments peaked at CHF 1,015B, while liabilities remained low — proving that the bank printed CHF to buy foreign assets. After 2022, investments declined as the SNB shifted to fighting inflation.
 
-### Foreign Currency Investments as a Monetary Tool
-SNB **foreign currency investments** peaked at **CHF 1,015B**, while liabilities remained low — proving that the bank printed CHF to buy foreign assets. After 2022, investments declined as the SNB shifted to fighting inflation.
+**🔹 Gold’s Role Continues to Shrink**  
+Gold dropped from ~30% to under 15% of total assets over time, showing a strategic move away from traditional reserves toward more liquid, policy-driven instruments.
 
-### Gold’s Role Continues to Shrink
-Gold dropped from **~30% to under 15%** of total assets over time, showing a strategic move away from traditional reserves toward more liquid, policy-driven instruments.
+**🔹 Record Balance Sheet Peaks (2021–2022)**  
+The five highest asset levels in SNB history were recorded between Dec 2021 and May 2022, marking the peak of its post-crisis monetary expansion.
 
-### Record Balance Sheet Peaks (2021–2022)
-The five highest asset levels in SNB history were recorded between **Dec 2021 and May 2022**, marking the peak of its post-crisis monetary expansion.
-
-### Balance Sheet Composition Transformation
-Over the past 25+ years, the SNB’s balance sheet evolved from being **gold- and cash-heavy** to being dominated by **foreign currency investments and sight deposits**, showing a move from traditional reserve banking to modern interventionism.
+**🔹 Balance Sheet Composition Transformation**  
+Over the past 25+ years, the SNB’s balance sheet evolved from being gold- and cash-heavy to being dominated by foreign currency investments and sight deposits — a shift from traditional reserve banking to modern interventionism.
 
 ---
 
