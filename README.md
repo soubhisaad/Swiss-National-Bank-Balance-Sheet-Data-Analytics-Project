@@ -47,24 +47,27 @@ Over the past 25+ years, the SNB’s balance sheet evolved from being gold- and 
 
 ---
 
-## 📷 Sample Charts
+## 📷 Some SQL Queries & Chart Visuals (pgAdmin Insight)
+**More SQL queries can be found in the folder `/SQL_and_pgAdmin_Visuals/`**
 
 | Metric                          | Screenshot                                  |
 |----------------------------------|---------------------------------------------|
-| Sight Deposits % of Liabilities | ![](images/deposit_share_chart.png)         |
-| Foreign Assets vs Liabilities   | ![](images/foreign_assets_vs_liabilities.png)|
-| Banknotes in Circulation        | ![](images/banknotes_covid_peak.png)        |
-| Gold as % of Total Assets       | ![](images/gold_ratio.png)                  |
-| Total Assets During COVID-19    | ![](images/total_assets_covid.png)          |
+| Sight Deposits | ![image alt](https://github.com/soubhisaad/Swiss-National-Bank-Balance-Sheet-Data-Analytics-Project/blob/73b975ba4c53b6afa5a3b1ae374525578ef3a8be/SQL_and_pgAdmin_Visuals/sight_deposits.png)
+| Foreign Assets vs Liabilities   | ![image alt](https://github.com/soubhisaad/Swiss-National-Bank-Balance-Sheet-Data-Analytics-Project/blob/73b975ba4c53b6afa5a3b1ae374525578ef3a8be/SQL_and_pgAdmin_Visuals/Foreign%20Currency%20Liabilities%20vs%20Investments.png)|
+| Banknotes in Circulation        | ![image alt](https://github.com/soubhisaad/Swiss-National-Bank-Balance-Sheet-Data-Analytics-Project/blob/73b975ba4c53b6afa5a3b1ae374525578ef3a8be/SQL_and_pgAdmin_Visuals/Banknotes%20in%20circulation.png)        |
+| Gold as % of Total Assets       | ![image alt](https://github.com/soubhisaad/Swiss-National-Bank-Balance-Sheet-Data-Analytics-Project/blob/73b975ba4c53b6afa5a3b1ae374525578ef3a8be/SQL_and_pgAdmin_Visuals/Gold_Ratio%20in%20total%20assets.png)                  |
+| Total Assets During COVID-19    | ![image alt](https://github.com/soubhisaad/Swiss-National-Bank-Balance-Sheet-Data-Analytics-Project/blob/73b975ba4c53b6afa5a3b1ae374525578ef3a8be/SQL_and_pgAdmin_Visuals/Total_assets%20COVID-19.png)          |
 
 ---
 
 ## 🔧 Tools Used
 
-- PostgreSQL + pgAdmin 4  
-- SQL (window functions, aggregation, subqueries)  
-- Visualizations with pgAdmin’s Graph Visualiser  
-- Screenshots saved to `/images` for GitHub presentation
+- PostgreSQL + pgAdmin 4 – Data storage, querying, and initial visual exploration
+- pgAdmin Graph Visualizer – For line, bar, and area chart visualizations of SNB financial data
+- SQL - Analytical queries using aggregation, subqueries, and window functions
+- Python – Used in Jupyter Notebook for API requests, data cleaning, and time-series forecasting (SARIMA, Prophet by Meta)
+- VS Code – Main development environment for Python scripting and project structure
+- Microsoft Power BI – Advanced data storytelling, dashboards, and financial visualization
 
 ---
 
