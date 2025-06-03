@@ -47,6 +47,56 @@ Over the past 25+ years, the SNB’s balance sheet evolved from being gold- and 
 
 ---
 
+## Machine Learning & Forecasting
+**The full code and visual outputs can be found in `Machine_Learning.ipynb`**
+
+*This notebook contains all forecasting, anomaly detection, model evaluations, and plots.*
+
+Machine learning is here used to understand and forecast the financial behavior of the **Swiss National Bank (SNB)** using over 25 years of monthly balance sheet data.
+
+### Time Series Forecasting
+
+The main goal was to predict **Total Assets** of the SNB using time series models. I implemented and compared:
+
+#### 1. SARIMA (Seasonal ARIMA)
+- A classic statistical forecasting model
+- Captured overall trend but struggled with sudden economic shifts
+- **Mean Absolute Error (MAE)**: ~134,000 million CHF (~16% error)
+
+#### 2. Prophet
+- Developed by Meta (Facebook), this model handles seasonality and trend shifts
+- Achieved a much lower MAE of ~31,000 million CHF (~3.7%)
+- Automatically decomposes data into trend + seasonal components
+
+#### 3. Prophet + External Regressor
+- I added `Foreign currency investments` as a regressor, which had a **correlation of r = 0.9964** with Total Assets
+- This significantly improved performance:
+  - **MAE** dropped to ~10,000 million CHF
+  - **Relative error** dropped to **~1.2%**
+- Final model captured trend shifts, volatility, and economic changes with high accuracy
+
+### ⚠️ Anomaly Detection
+
+To complement forecasting, I used **Isolation Forest** to detect anomalies in asset levels:
+
+- Flagged months during the **2008 global financial crisis**
+- Identified volatility in **2022–2023** following post-COVID monetary changes
+- Enabled a **risk-monitoring view** of the dataset
+
+---
+
+### ✅ Achievements
+- Achieved a **92% reduction in forecast error** from SARIMA to final Prophet model
+- Used real-world financial signals to **enhance model intelligence**
+- Built a fully explainable pipeline: from data cleaning to anomaly detection
+- Delivered a portfolio-quality time series solution using **real central bank data**
+
+---
+
+> 📊 Tools used: `Prophet`, `statsmodels`, `scikit-learn`, `pandas`, `matplotlib`
+
+---
+
 ## 📷 Some SQL Queries & Chart Visuals (pgAdmin Insight)
 **More SQL queries can be found in the folder `/SQL_and_pgAdmin_Visuals/`**
 
