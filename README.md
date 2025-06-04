@@ -121,7 +121,7 @@ To complement forecasting, I used **Isolation Forest** to detect anomalies in as
 
 ---
 
-## 🧠 What This Project Shows
+## What This Project Shows
 
 This project bridges **SQL skills** and **macroeconomic reasoning** by showing how central bank data reflects real-world crises and policy responses. It demonstrates how financial data can be queried, visualized, and turned into insight.
 
