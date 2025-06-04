@@ -48,7 +48,7 @@ Over the past 25+ years, the SNB’s balance sheet evolved from being gold- and 
 ---
 
 ## Machine Learning & Forecasting
-**The full code and visual outputs can be found in `Machine_Learning.ipynb`**
+**The full codes and visual outputs can be found in `Machine_Learning.ipynb`**
 
 *This notebook contains all forecasting, anomaly detection, model evaluations, and plots.*
 
